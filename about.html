@@ -1,1 +1,126 @@
-<html><head><title>About Us - AKAR</title><link rel="stylesheet" href="assets/css/style.css"></head><body><header><h1>About AKAR & Associates</h1></header><section><p>In the year 1982, Krishna Swarup Agrawal formed “K.S. Agrawal & Co.”...</p></section><footer>&copy; 2025 AKAR</footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us - AKAR & Associates</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #f9f9f9, #e6e6e6);
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 2em;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2em;
+    }
+    .section-title {
+      text-align: center;
+      margin: 1em 0 2em;
+      font-size: 2em;
+      color: #004080;
+    }
+    .history, .services {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      padding: 2em;
+      margin-bottom: 2em;
+    }
+    .timeline {
+      border-left: 4px solid #004080;
+      padding-left: 1em;
+      margin-top: 1em;
+    }
+    .timeline p {
+      margin: 0.5em 0;
+      position: relative;
+    }
+    .timeline p::before {
+      content: '';
+      position: absolute;
+      left: -1.4em;
+      top: 0.3em;
+      width: 10px;
+      height: 10px;
+      background: #004080;
+      border-radius: 50%;
+    }
+    .services-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1em;
+    }
+    .service-box {
+      background: #f2f8ff;
+      border-left: 5px solid #004080;
+      padding: 1em;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      background: #004080;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>About Us</h1>
+</header>
+
+<div class="container">
+  <section class="history">
+    <h2 class="section-title">Our Journey</h2>
+    <p>AKAR & Associates is a professionally managed firm of Chartered Accountants established in 1982.</p>
+    <div class="timeline">
+      <p>1982 – Krishna Swarup Agrawal formed “K.S. Agrawal & Co.”</p>
+      <p>2008 – Four partners merged their practices to form AKAR & Associates (Aditya Agrawal, K.S. Agrawal, Annu Thapar, Rasik Makkar)</p>
+      <p>Present – Six partners with a multi-disciplinary team offering services across India</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <h2 class="section-title">What We Do</h2>
+    <p>The firm offers a comprehensive range of services in the following areas:</p>
+    <div class="services-list">
+      <div class="service-box">
+        <strong>Audit & Assurance</strong>
+        <p>Statutory audits, tax audits, internal and process audits, and certifications.</p>
+      </div>
+      <div class="service-box">
+        <strong>Tax Advisory & Litigation</strong>
+        <p>Income Tax, TDS, GST, representation before appellate authorities.</p>
+      </div>
+      <div class="service-box">
+        <strong>Valuation & Compliance</strong>
+        <p>Business valuation, registered valuers, SEBI, RBI, FEMA matters.</p>
+      </div>
+      <div class="service-box">
+        <strong>Business Advisory</strong>
+        <p>Company Law, transaction structuring, feasibility studies, and more.</p>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  &copy; 2025 AKAR & Associates. All Rights Reserved.
+</footer>
+
+</body>
+</html>
